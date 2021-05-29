@@ -1,28 +1,98 @@
 {
-    "tasks": [
+
+    "jobs": [
         {
-            "id": 1,
-            "title": "Task 1",
-            "description": "Desc Task 1",
-            "owner": {
-                "name": "Owner 1"
-            }
+            "position": "Desarrollador Backend",
+            "description": "Desarrollador Backend con KOtlin",
+            "organizationId": 1,
+            "id": 1
         },
         {
-            "id": 2,
-            "title": "Task 2",
-            "description": "Desc Task 2",
-            "owner": {
-                "name": "Owner 2"
-            }
+            "position": "Desarrollador Backend",
+            "description": "Desarrollador Backend node.js",
+            "organizationId": "1",
+            "id": 2
+        }
+    ],
+    "organizations": [
+        {
+            "name": "noborrar",
+            "placeId": "1",
+            "id": 1
         },
         {
-            "id": 3,
-            "title": "Task 3",
-            "description": "Desc Task 3",
-            "owner": {
-                "name": "Owner 3"
-            }
+            "name": "asd",
+            "placeId": 1,
+            "id": 2
+        },
+        {
+            "name": "qwe",
+            "placeId": "2",
+            "id": 5
+        },
+        {
+            "name": "Spotiify",
+            "placeId": 1,
+            "id": 6
+        }
+    ],
+    "places": [
+        {
+            "name": "La Rioja",
+            "countrieId": 1,
+            "id": 1
+        },
+        {
+            "name": "Madrid",
+            "countrieId": 3,
+            "id": 2
+        },
+        {
+            "name": "Santiago",
+            "countrieId": "2",
+            "id": 3
+        },
+        {
+            "name": "Cordoba",
+            "countrieId": 1,
+            "id": 4
+        },
+        {
+            "name": "aa",
+            "countrieId": "2",
+            "id": 5
+        },
+        {
+            "name": "asd",
+            "countrieId": "3",
+            "id": 7
+        },
+        {
+            "name": "hhhhhhhhh",
+            "countrieId": 7,
+            "id": 8
+        }
+    ],
+    "countries": [
+        {
+            "name": "Argentina",
+            "id": 1
+        },
+        {
+            "name": "Chile",
+            "id": 2
+        },
+        {
+            "name": "España",
+            "id": 3
+        },
+        {
+            "name": "Alemania",
+            "id": 6
+        },
+        {
+            "name": "Hungria",
+            "id": 7
         }
     ]
 
